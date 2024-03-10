@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* custom */
 
 .card-shadow {
@@ -75,4 +76,83 @@
 
 .card-body-flex {
     flex-grow: 1;
+=======
+/* custom */
+
+.card-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 3.5rem);
+}
+
+.profile-img{
+    width: 125px;
+    height: 125px;
+}
+
+.equal-height {
+    height: 100%;
+    width: 100%;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+.small-text{
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #484848;
+}
+
+.business-text{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #484848;
+}
+
+.icon-lg{
+    font-size: 30px;
+}
+
+.border-radius-none{
+    border-radius: 0px!important;
+}
+
+.bs-searchbox .dropdown-menu .inner .no-results {
+    display: none;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body-flex {
+    flex-grow: 1;
+>>>>>>> 50738457b13b2043e6e07348bcdb0c2b7e3976f7
 }
